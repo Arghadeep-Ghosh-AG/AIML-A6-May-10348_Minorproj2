@@ -17,7 +17,13 @@ def clean_text(text):
     return text
 
 
-df = pd.read_csv("dataset/news.csv")
+fake_df = pd.read_csv("dataset/Fake.csv")
+true_df = pd.read_csv("dataset/True.csv")
+
+fake_df["label"] = "FAKE"
+true_df["label"] = "REAL"
+
+df = pd.concat([fake_df, true_df], ignore_index=True)
 
 df["text"] = df["text"].apply(clean_text)
 
