@@ -10,6 +10,57 @@ The project demonstrates the practical application of machine learning and NLP i
 
 
 
+Features
+Detects whether a news article is REAL or FAKE
+NLP-based text preprocessing
+TF-IDF feature extraction
+Logistic Regression classifier
+Streamlit-based web interface
+High prediction accuracy
+Technologies Used
+Python
+Pandas
+NumPy
+Scikit-Learn
+Streamlit
+Natural Language Processing (NLP)
+TF-IDF Vectorization
+Logistic Regression
+Dataset
+
+This project uses the Fake and Real News Dataset from Kaggle.
+
+
+Dataset Link:
+
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+
+The dataset contains:
+
+Fake.csv
+True.csv
+
+Place the dataset files inside the following directory:
+
+dataset/
+├── Fake.csv
+└── True.csv
+Project Structure
+Fake-News-Detector/
+│
+├── dataset/
+│   ├── Fake.csv
+│   └── True.csv
+│
+├── train.py
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── fake_news_model.pkl
+
+
+
 ## Sample Output
 
 ### Example 1
@@ -39,3 +90,10 @@ Prediction: FAKE
 Accuracy: 98.56%
 Algorithm: Logistic Regression
 Feature Extraction: TF-IDF Vectorization
+
+
+## Author
+
+Arghadeep Ghosh
+
+B.Tech Computer Science Engineering
