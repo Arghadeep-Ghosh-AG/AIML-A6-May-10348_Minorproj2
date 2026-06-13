@@ -7,3 +7,35 @@ This project utilizes a labeled dataset containing news articles and their corre
 A classification model is trained using the processed data to identify patterns that distinguish genuine news from misleading or fabricated content. The trained model can then predict whether a new article is real or fake based on its textual content. A user-friendly Streamlit interface is provided to allow users to input news text and obtain instant predictions.
 
 The project demonstrates the practical application of machine learning and NLP in combating misinformation and improving information reliability. Future enhancements may include deep learning models, real-time news verification, multilingual support, and integration with fact-checking APIs for improved accuracy and performance.
+
+
+
+## Sample Output
+
+### Example 1
+
+Input:
+
+The government announced new economic reforms to boost employment and industrial growth across the country.
+
+Output:
+
+Prediction: REAL
+
+### Example 2
+
+Input:
+
+Scientists confirm that drinking a special herbal drink can make humans live for 200 years.
+
+Output:
+
+Prediction: FAKE
+
+
+
+## Model Performance
+
+Accuracy: 98.56%
+Algorithm: Logistic Regression
+Feature Extraction: TF-IDF Vectorization
