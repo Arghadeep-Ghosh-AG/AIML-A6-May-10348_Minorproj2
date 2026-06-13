@@ -1,4 +1,4 @@
-# AIML-A6-May-10348_Minorproj2
+# Fake News Detection System(AIML-A6-May-10348_Minorproj2)
 
 The Fake News Detection System is a Natural Language Processing (NLP) and Machine Learning based application designed to automatically classify news articles as real or fake. With the rapid spread of misinformation through online platforms, automated verification systems have become increasingly important.
 
